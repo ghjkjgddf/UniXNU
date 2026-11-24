@@ -1,0 +1,11 @@
+name: runner-probe2
+on: workflow_dispatch
+jobs:
+  m14:
+    runs-on: macos-14
+    steps:
+      - run: echo macos14-ok
+  m13:
+    runs-on: macos-13
+    steps:
+      - run: echo macos13-ok
